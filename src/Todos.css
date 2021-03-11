@@ -1,0 +1,12 @@
+.bg{
+    border-radius: 10px;
+    background-color: silver;
+    font-style: italic;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+}
+button{
+    background-color:gray;
+}
+

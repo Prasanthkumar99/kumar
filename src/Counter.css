@@ -1,0 +1,13 @@
+.bg{
+    background-color: lightslategray;
+    font-style: italic;
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 5px;
+}
+
+button{
+    border-radius: 2px;
+    background-color: lightslategrey;
+}
