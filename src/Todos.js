@@ -43,8 +43,7 @@ class Todos extends Component {
         <ol>
             {this.state.todos.map((todo, index) => {return (
               <li key={index}>{todo}<button onClick={() => this.removeTodo(todo)}>REMOVE</button>
-              </li>
-            );
+              </li>);
           })}
         </ol>
       </div>

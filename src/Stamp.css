@@ -1,0 +1,10 @@
+.bg{
+    background-color: darkgray;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+}

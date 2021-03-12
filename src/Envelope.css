@@ -1,0 +1,25 @@
+.bg{
+    border:2px solid black;
+    text-align: justify;
+    height:400px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.toph4{
+    margin-left: 30px;
+}
+
+.bottomh4{
+display: flex;
+justify-content: center;
+
+}
+
+.stamp{
+    margin-left: 750px;
+    margin-right: 100px;
+    border:1px solid black;
+    text-align: center;
+    height: 20px;
+}

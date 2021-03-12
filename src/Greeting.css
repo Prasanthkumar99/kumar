@@ -1,0 +1,11 @@
+.bg{
+    background-color: darkgrey;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+h3{
+    color: white;
+}

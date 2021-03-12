@@ -3,8 +3,10 @@ import React, { Component, COmponent } from 'react';
 class Randompg extends Component{
     constructor(){
         super();
-        characters :'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()<>,.?/[]{}-=_+|/0123456789';
+        this.state={
+        characters :'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()<>,.?/[]{}-=_+|/0123456789'
     }
+}
 
     render(){
         return(
