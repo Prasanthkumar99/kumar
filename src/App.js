@@ -1,11 +1,12 @@
 import './App.css';
 import Credictcard from './Credictcard';
-// import Welcome from './Welcome';
-// import Todos from './Todos';
-// import Counter from './Counter'
-// import Randompg from './Randompg';
-// import Greetinggenerator from './Greetinggenerator';
-// import Stamp from './Stamp';
+import Welcome from './Welcome';
+import Todos from './Todos';
+import Counter from './Counter'
+import Randompg from './Randompg';
+import Greetinggenerator from './Greetinggenerator';
+import Stamp from './Stamp'
+import Poster from './Poster';
 
 
 
@@ -13,7 +14,9 @@ import Credictcard from './Credictcard';
 function App() {
   return (
     <div>
-    <Credictcard/>
+    <Poster>
+      <img src={require('./map.jpg')} />
+    </Poster>
     </div>
   );
 }
