@@ -8,11 +8,16 @@ const Catalog=(props)=>{
         setItems(props.items)
     },[props])
 
+    const addCart = (item) =>{
+            console.log("Catalog call back item", item);
+            props.addCart(item)
+    }
+
     return <React.Fragment>
         <h1>Catalog</h1>
         {
             items.map((item)=>{
-                return <Item item={item} key={item.uniqueId} isCart={false}/>
+                return <Item item={item} key={item.uniqueId} isCart={false} addCart={addCart}/>
             })
         }
     </React.Fragment>

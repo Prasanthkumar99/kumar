@@ -28,14 +28,41 @@ const Shop=(props)=>{
     },[])
 
 
+    const addCart = (item)=> {
+        console.log("shop item callback", item);
+        setCartItems([...cartItems, item]);
+        setOrderTotal(orderTotal + item.min_list_price);
+  
+
+    }
+
+    const removeItem = (itemm) => {
+        
+        console.log("after Remove Item filter Items: ", itemm);
+        setCartItems([...itemm]);
+        
+
+        if(itemm.length === 0){
+            
+            setOrderTotal(0)
+
+        }else{
+            itemm.map( item => {
+                return setOrderTotal(orderTotal - item.min_list_price);
+            })
+        }
+        
+    }
+
+
 
     return <div className="row">
                 <h1>Shop</h1>
                 <div className="column">
-                    <Catalog items={items}/>
+                    <Catalog items={items} addCart={addCart}/>
                 </div>
                 <div className="column">
-                    <Cart items={cartItems}/>
+                    <Cart items={cartItems} filteredRmItem={removeItem} />
                     <Checkout orderTotal={orderTotal}/>
                 </div>
             </div>
