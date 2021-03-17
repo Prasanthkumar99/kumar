@@ -1,0 +1,13 @@
+.tbl{
+    /* border:2px solid black; */
+    background-color:grey;
+    color: black;
+    margin-left: 320px;
+}
+.h1{
+color:black;
+text-align:left;
+background-color: grey;
+padding-left: 500PX;
+font-style: italic;
+}

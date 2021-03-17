@@ -7,6 +7,9 @@ import Randompg from './Randompg';
 import Greetinggenerator from './Greetinggenerator';
 import Stamp from './Stamp'
 import Poster from './Poster';
+import Users from './Users';
+import Movies from './Movies';
+import Users2 from './Users2';
 
 
 
@@ -14,9 +17,7 @@ import Poster from './Poster';
 function App() {
   return (
     <div>
-    <Poster>
-      <img src={require('./map.jpg')} />
-    </Poster>
+    <Users2/>
     </div>
   );
 }

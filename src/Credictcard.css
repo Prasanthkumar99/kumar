@@ -1,6 +1,5 @@
 .arif{
-     border: 1px solid black;
-    cursor: pointer; 
+     margin-left: 350px;
 }
 
 
@@ -8,7 +7,7 @@
 .bg{
     
     border-radius: 8px;
-    height:240px;
+    height:180px;
     width: 400px;
     margin: 50px auto;
     background:darkslategray url('./wp2497051.png');
@@ -18,12 +17,8 @@
     opacity: 100;
 }
 
-h2{
-    padding-left: 15px;
-    padding-top: 25px;
-}
 
-h3{
+h2{
     text-align: center;
     
 }
